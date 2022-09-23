@@ -10,7 +10,8 @@ And you can still utilize CMake code, because it is cross-platform.
 I use CMake as build-tool, and Lua script will call CMake cmds to build.
 
 Users usually don't need to type CMake cmds, because I already write down common , just use like:
-** Generate CMake Files in build/ **
+
+**Generate CMake Files in build/**
 
 ```lua mklua.lua gen```
 
