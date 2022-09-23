@@ -11,16 +11,24 @@ I use CMake as build-tool, and Lua script will call CMake cmds to build.
 
 Users usually don't need to type CMake cmds, because I already write down common , just use like:
 ** Generate CMake Files in build/ **
-'''lua mklua.lua gen'''
+
+```lua mklua.lua gen```
+
 ** call cmake --build to build project **
-'''lua mklua.lua build'''
+
+```lua mklua.lua build```
+
 ** ls build/ **
-'''lua mklua.lua see-build'''
+
+```lua mklua.lua see-build```
 
 ** Clean CMake Files in build/**
-'''lua mklua.lua clean'''
-** clean exe **
-'''lua mklua.lua clean-exe'''
+
+```lua mklua.lua clean```
+
+** Clean the executable **
+
+```lua mklua.lua clean-exe```
 
 You should stay at the project path to call Lua script.
 
