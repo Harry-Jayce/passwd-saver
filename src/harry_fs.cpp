@@ -55,8 +55,8 @@ namespace harry::fs {
     int write_file(stdfs::path file_path) {
         if (has_file(file_path)) {
             FILE* file_ptr = fopen(file_path.c_str(), "w+");
-            const char email_addr[] = "cherrise28@outlook.com";
-            const char email_passwd[] = "sz142857";
+            const char email_addr[] = "nice2meet_uoutlook.com";
+            const char email_passwd[] = "passwd123666";
             // c_str to be written, element size, count, file_ptr
             fwrite(email_addr, sizeof email_addr[0], strnlen(email_addr, sizeof email_addr), file_ptr);
             fwrite(email_addr, sizeof email_addr[0], strnlen(email_addr, sizeof email_addr), file_ptr);
