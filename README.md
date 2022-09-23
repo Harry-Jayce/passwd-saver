@@ -15,19 +15,19 @@ Users usually don't need to type CMake cmds, because I already write down common
 
 ```lua mklua.lua gen```
 
-** call cmake --build to build project **
+**call cmake --build to build project**
 
 ```lua mklua.lua build```
 
-** ls build/ **
+**ls build/**
 
 ```lua mklua.lua see-build```
 
-** Clean CMake Files in build/**
+**Clean CMake Files in build/**
 
 ```lua mklua.lua clean```
 
-** Clean the executable **
+**Clean the executable**
 
 ```lua mklua.lua clean-exe```
 
